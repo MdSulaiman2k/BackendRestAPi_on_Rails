@@ -1,0 +1,17 @@
+# Read about fixtures at https://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  hotel_address: MyText
+  hotel_cate: MyText
+  hotelimg: MyText
+  hotelname: MyText
+  rating: 9.99
+  timing: MyString
+
+two:
+  hotel_address: MyText
+  hotel_cate: MyText
+  hotelimg: MyText
+  hotelname: MyText
+  rating: 9.99
+  timing: MyString
