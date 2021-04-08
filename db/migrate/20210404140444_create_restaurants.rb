@@ -7,6 +7,7 @@ class CreateRestaurants < ActiveRecord::Migration[6.1]
       t.text :hotelname
       t.decimal :rating
       t.string :timing, :limit => 4
+      t.string :counting
 
       t.timestamps
     end

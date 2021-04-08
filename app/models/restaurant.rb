@@ -3,7 +3,8 @@ class Restaurant < ApplicationRecord
     validates :hotel_cate, presence: true 
     validates :hotelimg, presence: true 
     validates :hotelname, presence: true 
-    validates :timing, presence: true 
+    validates :status, presence: true 
     validates :rating,  presence: true 
+    validates :counting,  presence: true 
 
 end
