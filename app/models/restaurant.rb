@@ -6,5 +6,6 @@ class Restaurant < ApplicationRecord
     validates :status, presence: true 
     validates :rating,  presence: true 
     validates :counting,  presence: true 
+    has_many :fooddetails, dependent: :destroy
 
 end
